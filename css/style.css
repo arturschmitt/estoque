@@ -35,6 +35,12 @@ p{
     margin-top: 3%;
 }
 
+.conteudo2{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+}
+
 th{
     color: darkslategray;
 }
@@ -53,5 +59,9 @@ td{
     .login{
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .conteudo2{
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }

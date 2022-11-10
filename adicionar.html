@@ -35,21 +35,37 @@
         </div>
       </nav>
       <br>
-    <div class="conteudo" style="margin-left: 25%; margin-right: 25%;">
+    <div class="conteudo2">
         <div class="card text-center">
             <div class="card-header">
             Adicionar item
             </div>
             <div class="card-body">
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Nome" aria-label="Username" aria-describedby="basic-addon1">
-            </div>
-            
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Descrição" aria-label="Username" aria-describedby="basic-addon1">
-            </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label" style="float: left;">Produto</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label" style="float: left;">Descrição</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
               
-            <a href="#" class="btn btn-primary">Enviar</a>
+          
+              <div class="mb-3" style="width: 30%; display: inline; float: left;">
+                <label for="exampleFormControlInput1" class="form-label" style="float: left;">Quantidade</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="1">
+              </div>
+
+              <label for="exampleFormControlInput1" class="form-label" style="float: left; margin-left: 15px;">Categorias</label>
+              <select class="form-select form-select" aria-label=".form-select-sm example" style="width: 68%; display: inline; float: right;">
+                <option selected> </option>
+                <option value="1">Limpeza</option>
+                <option value="2">Materiais de aula</option>
+                <option value="3">Fodase?</option>
+              </select>
+
+              <a href="#" class="btn btn-primary" style="float: right; margin-top: 30px;">Enviar</a>
             </div>
         </div>
     </div>
